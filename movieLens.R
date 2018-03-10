@@ -17,8 +17,10 @@ distances= dist(movies[2:20], method = "euclidean")
 clusterMovies=hclust(distances, method="ward.D2")
 plot(clusterMovies)
 clusterGroups= cutree(clusterMovies, k=10)
+
 tapply(movies$Action,clusterGroups, mean)
 tapply(movies$Romance, clusterGroups,mean)
+
 subset(movies, Title=="Men in Black (1997)")
 clusterGroups[257]
 cluster2= subset(movies, clusterGroups==2)

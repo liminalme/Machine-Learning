@@ -1,4 +1,3 @@
-
 # Read the data
 wine= read.csv("wine.csv")
 #Structure of wine data

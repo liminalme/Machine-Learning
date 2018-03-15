@@ -1,4 +1,4 @@
-
+#Exploratory Data Analysis
 # Structure of titanic1
 str(titanic)
 

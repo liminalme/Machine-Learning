@@ -1,3 +1,4 @@
+
 quality= read.csv("quality.csv")
 str(quality)
 table(quality$PoorCare)

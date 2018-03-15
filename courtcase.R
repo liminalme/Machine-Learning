@@ -1,3 +1,4 @@
+#Predicting outcome of Supreme Court cases in US
 #Read the data
 stevens=read.csv("stevens.csv")
 #Structure of stevens data
